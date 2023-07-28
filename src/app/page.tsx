@@ -38,7 +38,7 @@ export default async function Home() {
   }
 
   return (
-    <div className="flex flex-col gap-10 p-8">
+    <div className="flex flex-col gap-10 p-16">
       {memories.map((memory) => {
         return (
           <div key={memory.id} className="space-y-4">
